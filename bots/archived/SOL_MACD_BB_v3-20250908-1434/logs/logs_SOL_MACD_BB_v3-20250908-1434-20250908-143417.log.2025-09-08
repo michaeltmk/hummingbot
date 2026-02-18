@@ -1,0 +1,877 @@
+2025-09-08 14:34:21,580 - 17 - hummingbot.core.trading_core - INFO - Markets recorder initialized with database: SOL_MACD_BB_v3-20250908-1434-20250908-143417
+2025-09-08 14:34:21,592 - 17 - hummingbot.core.trading_core - INFO - Creating the clock with tick size: 1.0
+2025-09-08 14:34:21,592 - 17 - hummingbot.core.trading_core - INFO - Clock started successfully
+2025-09-08 14:34:21,593 - 17 - hummingbot.core.trading_core - INFO - 'v2_with_controllers' strategy execution started.
+2025-09-08 14:34:21,593 - 17 - hummingbot.core.trading_core - INFO - Strategy v2_with_controllers started successfully
+2025-09-08 14:34:21,746 - 17 - hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-08 14:34:21,748 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Starting listen key management task...
+2025-09-08 14:34:21,761 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-08 14:34:21,825 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully obtained listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 14:34:21,826 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Connecting to user stream with listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 14:34:22,547 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2025-09-08 14:34:22,548 - 17 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2025-09-08 14:34:22,550 - 17 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-08 14:34:22,678 - 17 - hummingbot.client.hummingbot_application - INFO - MQTT Bridge connected with success.
+2025-09-08 14:34:22,688 - 17 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for SOL-USDT. 1/1 completed.
+2025-09-08 14:34:22,747 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully connected to user stream
+2025-09-08 14:34:22,859 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - INFO - Subscribed to public klines...
+2025-09-08 14:34:23,000 - 17 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2025-09-08 15:04:22,167 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 15:34:22,527 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 16:04:22,921 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 16:34:23,286 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 17:04:23,665 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 17:34:24,030 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 18:04:24,381 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 18:34:24,829 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 19:04:25,427 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 19:34:25,804 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 20:04:26,209 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 20:34:26,566 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 21:04:26,941 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 21:34:27,293 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 22:04:27,651 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 22:34:28,037 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 23:04:28,419 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-08 23:34:28,773 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 00:04:29,130 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 00:18:44,246 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e533f385ebc4804 for 0.46700000 SOL-USDT at 213.92500000.
+2025-09-09 00:18:44,257 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757377124.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46700000", "price": "213.92500000", "order_id": "x-MG43PCSNBSLUT63e533f385ebc4804", "creation_timestamp": 1757377124.0, "exchange_order_id": "14004313537", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 00:18:44,257 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e533f385ebc4804 amounting to 0.46700000/0.46700000 SOL has been filled at 213.90000000 USDT.
+2025-09-09 00:18:44,269 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757377124.0, "order_id": "x-MG43PCSNBSLUT63e533f385ebc4804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.90000000", "amount": "0.46700000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00046700"}]}, "exchange_trade_id": "1541782390", "exchange_order_id": "14004313537", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 00:18:44,286 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757377124.0, "order_id": "x-MG43PCSNBSLUT63e533f385ebc4804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46700000", "quote_asset_amount": "99.8913000000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14004313537", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 00:18:44,286 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e533f385ebc4804 completely filled.
+2025-09-09 00:18:45,197 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e533f47c3224804 for 0.46600000 SOL-USDT at 235.29000000.
+2025-09-09 00:18:45,207 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757377125.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46600000", "price": "235.29000000", "order_id": "x-MG43PCSNSSLUT63e533f47c3224804", "creation_timestamp": 1757377125.0, "exchange_order_id": "14004314467", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 00:34:29,501 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 00:57:02,813 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e53c83a9bf84804 for 0.46800000 SOL-USDT at 213.38500000.
+2025-09-09 00:57:02,821 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379422.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "213.38500000", "order_id": "x-MG43PCSNBSLUT63e53c83a9bf84804", "creation_timestamp": 1757379422.0, "exchange_order_id": "14004900094", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 00:57:02,822 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53c83a9bf84804 amounting to 0.46800000/0.46800000 SOL has been filled at 213.39000000 USDT.
+2025-09-09 00:57:02,830 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379422.0, "order_id": "x-MG43PCSNBSLUT63e53c83a9bf84804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.39000000", "amount": "0.46800000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00046800"}]}, "exchange_trade_id": "1541856057", "exchange_order_id": "14004900094", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 00:57:02,837 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379422.0, "order_id": "x-MG43PCSNBSLUT63e53c83a9bf84804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46800000", "quote_asset_amount": "99.8665200000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14004900094", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 00:57:02,837 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e53c83a9bf84804 completely filled.
+2025-09-09 00:57:03,821 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e53c849fdd64804 for 0.46700000 SOL-USDT at 234.72000000.
+2025-09-09 00:57:03,831 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379423.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46700000", "price": "234.72000000", "order_id": "x-MG43PCSNSSLUT63e53c849fdd64804", "creation_timestamp": 1757379423.0, "exchange_order_id": "14004900207", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:00:03,363 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e53d2fd93954804 for 0.46900000 SOL-USDT at 213.20500000.
+2025-09-09 01:00:03,373 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "213.20500000", "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "creation_timestamp": 1757379603.0, "exchange_order_id": "14004919617", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:00:03,425 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53d2fd93954804 amounting to 0.02500000/0.46900000 SOL has been filled at 213.21000000 USDT.
+2025-09-09 01:00:03,434 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.21000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "BNB", "flat_fees": [{"token": "BNB", "amount": "0.00000456"}]}, "exchange_trade_id": "1541858159", "exchange_order_id": "14004919617", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:00:03,434 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53d2fd93954804 amounting to 0.05000000/0.46900000 SOL has been filled at 213.21000000 USDT.
+2025-09-09 01:00:03,443 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.21000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "BNB", "flat_fees": [{"token": "BNB", "amount": "0.00000456"}]}, "exchange_trade_id": "1541858160", "exchange_order_id": "14004919617", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:00:03,443 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53d2fd93954804 amounting to 0.07600000/0.46900000 SOL has been filled at 213.21000000 USDT.
+2025-09-09 01:00:03,450 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.21000000", "amount": "0.02600000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002600"}]}, "exchange_trade_id": "1541858161", "exchange_order_id": "14004919617", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:00:03,450 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53d2fd93954804 amounting to 0.12400000/0.46900000 SOL has been filled at 213.21000000 USDT.
+2025-09-09 01:00:03,457 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.21000000", "amount": "0.04800000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00004800"}]}, "exchange_trade_id": "1541858162", "exchange_order_id": "14004919617", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:00:03,458 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53d2fd93954804 amounting to 0.14800000/0.46900000 SOL has been filled at 213.21000000 USDT.
+2025-09-09 01:00:03,466 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.21000000", "amount": "0.02400000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002400"}]}, "exchange_trade_id": "1541858163", "exchange_order_id": "14004919617", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:00:03,466 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53d2fd93954804 amounting to 0.17300000/0.46900000 SOL has been filled at 213.21000000 USDT.
+2025-09-09 01:00:03,475 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.21000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541858164", "exchange_order_id": "14004919617", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:00:03,475 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53d2fd93954804 amounting to 0.46900000/0.46900000 SOL has been filled at 213.21000000 USDT.
+2025-09-09 01:00:03,483 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.21000000", "amount": "0.29600000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00029600"}]}, "exchange_trade_id": "1541858165", "exchange_order_id": "14004919617", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:00:03,492 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379603.0, "order_id": "x-MG43PCSNBSLUT63e53d2fd93954804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46900000", "quote_asset_amount": "99.9954900000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14004919617", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 01:00:03,493 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e53d2fd93954804 completely filled.
+2025-09-09 01:00:04,371 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e53d30cf5264804 for 0.46900000 SOL-USDT at 234.53000000.
+2025-09-09 01:00:04,380 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379604.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "234.53000000", "order_id": "x-MG43PCSNSSLUT63e53d30cf5264804", "creation_timestamp": 1757379604.0, "exchange_order_id": "14004919820", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:03:11,030 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e53de2c5f574804 for 0.46800000 SOL-USDT at 213.25500000.
+2025-09-09 01:03:11,038 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379791.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "213.25500000", "order_id": "x-MG43PCSNBSLUT63e53de2c5f574804", "creation_timestamp": 1757379790.0, "exchange_order_id": "14004962026", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:03:11,038 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e53de2c5f574804 amounting to 0.46800000/0.46800000 SOL has been filled at 213.24000000 USDT.
+2025-09-09 01:03:11,046 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379791.0, "order_id": "x-MG43PCSNBSLUT63e53de2c5f574804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.24000000", "amount": "0.46800000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00046800"}]}, "exchange_trade_id": "1541863256", "exchange_order_id": "14004962026", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:03:11,053 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379791.0, "order_id": "x-MG43PCSNBSLUT63e53de2c5f574804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46800000", "quote_asset_amount": "99.7963200000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14004962026", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 01:03:11,053 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e53de2c5f574804 completely filled.
+2025-09-09 01:03:11,987 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e53de3bbfdb4804 for 0.46700000 SOL-USDT at 234.56000000.
+2025-09-09 01:03:11,997 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757379791.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46700000", "price": "234.56000000", "order_id": "x-MG43PCSNSSLUT63e53de3bbfdb4804", "creation_timestamp": 1757379791.0, "exchange_order_id": "14004962221", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:04:29,884 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 01:15:23,334 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e5409d336c24804 for 0.46900000 SOL-USDT at 213.21500000.
+2025-09-09 01:15:23,351 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380523.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "213.21500000", "order_id": "x-MG43PCSNBSLUT63e5409d336c24804", "creation_timestamp": 1757380523.0, "exchange_order_id": "14005068970", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:15:23,352 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e5409d336c24804 amounting to 0.46900000/0.46900000 SOL has been filled at 213.22000000 USDT.
+2025-09-09 01:15:23,360 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380523.0, "order_id": "x-MG43PCSNBSLUT63e5409d336c24804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.22000000", "amount": "0.46900000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00046900"}]}, "exchange_trade_id": "1541874197", "exchange_order_id": "14005068970", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:15:23,367 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380523.0, "order_id": "x-MG43PCSNBSLUT63e5409d336c24804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46900000", "quote_asset_amount": "100.0001800000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14005068970", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 01:15:23,367 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e5409d336c24804 completely filled.
+2025-09-09 01:15:24,341 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e5409e295314804 for 0.46800000 SOL-USDT at 234.54000000.
+2025-09-09 01:15:24,350 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380524.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "234.54000000", "order_id": "x-MG43PCSNSSLUT63e5409e295314804", "creation_timestamp": 1757380524.0, "exchange_order_id": "14005069038", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:18:23,888 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e54149640464804 for 0.46900000 SOL-USDT at 213.11500000.
+2025-09-09 01:18:23,896 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "213.11500000", "order_id": "x-MG43PCSNBSLUT63e54149640464804", "creation_timestamp": 1757380703.0, "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:18:23,948 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.02400000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:23,958 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02400000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002400"}]}, "exchange_trade_id": "1541878418", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:23,958 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.04900000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:23,967 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541878419", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:23,967 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.07400000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:23,974 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541878420", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:23,974 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.09900000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:23,983 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541878421", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:23,983 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.12400000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:23,992 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541878422", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:23,992 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.14900000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:24,001 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541878423", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:24,001 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.17400000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:24,008 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541878424", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:24,008 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.19900000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:24,016 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541878425", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:24,016 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.22400000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:24,025 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.02500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00002500"}]}, "exchange_trade_id": "1541878426", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:24,025 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54149640464804 amounting to 0.46900000/0.46900000 SOL has been filled at 213.12000000 USDT.
+2025-09-09 01:18:24,035 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "213.12000000", "amount": "0.24500000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00024500"}]}, "exchange_trade_id": "1541878427", "exchange_order_id": "14005103436", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:18:24,044 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380703.0, "order_id": "x-MG43PCSNBSLUT63e54149640464804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46900000", "quote_asset_amount": "99.9532800000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14005103436", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 01:18:24,044 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e54149640464804 completely filled.
+2025-09-09 01:18:24,901 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e5414a59c664804 for 0.46800000 SOL-USDT at 234.43000000.
+2025-09-09 01:18:24,911 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380704.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "234.43000000", "order_id": "x-MG43PCSNSSLUT63e5414a59c664804", "creation_timestamp": 1757380704.0, "exchange_order_id": "14005103630", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:21:24,416 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e541f58e3574804 for 0.46900000 SOL-USDT at 212.90500000.
+2025-09-09 01:21:24,426 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380884.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "212.90500000", "order_id": "x-MG43PCSNBSLUT63e541f58e3574804", "creation_timestamp": 1757380884.0, "exchange_order_id": "14005132070", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:21:24,427 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e541f58e3574804 amounting to 0.46900000/0.46900000 SOL has been filled at 212.91000000 USDT.
+2025-09-09 01:21:24,437 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380884.0, "order_id": "x-MG43PCSNBSLUT63e541f58e3574804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "212.91000000", "amount": "0.46900000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00046900"}]}, "exchange_trade_id": "1541881623", "exchange_order_id": "14005132070", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:21:24,456 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380884.0, "order_id": "x-MG43PCSNBSLUT63e541f58e3574804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46900000", "quote_asset_amount": "99.8547900000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14005132070", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 01:21:24,456 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e541f58e3574804 completely filled.
+2025-09-09 01:21:25,424 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e541f68422f4804 for 0.46800000 SOL-USDT at 234.20000000.
+2025-09-09 01:21:25,435 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757380885.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "234.20000000", "order_id": "x-MG43PCSNSSLUT63e541f68422f4804", "creation_timestamp": 1757380885.0, "exchange_order_id": "14005132158", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:24:24,964 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e542a1bca364804 for 0.46900000 SOL-USDT at 212.95500000.
+2025-09-09 01:24:24,974 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757381064.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "212.95500000", "order_id": "x-MG43PCSNBSLUT63e542a1bca364804", "creation_timestamp": 1757381064.0, "exchange_order_id": "14005164145", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:24:24,974 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e542a1bca364804 amounting to 0.46900000/0.46900000 SOL has been filled at 212.96000000 USDT.
+2025-09-09 01:24:24,982 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757381064.0, "order_id": "x-MG43PCSNBSLUT63e542a1bca364804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "212.96000000", "amount": "0.46900000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00046900"}]}, "exchange_trade_id": "1541885170", "exchange_order_id": "14005164145", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:24:24,990 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757381064.0, "order_id": "x-MG43PCSNBSLUT63e542a1bca364804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46900000", "quote_asset_amount": "99.8782400000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14005164145", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 01:24:24,991 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e542a1bca364804 completely filled.
+2025-09-09 01:24:25,969 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e542a2b27404804 for 0.46800000 SOL-USDT at 234.25000000.
+2025-09-09 01:24:25,980 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757381065.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "234.25000000", "order_id": "x-MG43PCSNSSLUT63e542a2b27404804", "creation_timestamp": 1757381065.0, "exchange_order_id": "14005164311", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:34:30,291 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 01:47:48,041 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e547dbd131a4804 for 0.46900000 SOL-USDT at 212.84500000.
+2025-09-09 01:47:48,050 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757382468.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "212.84500000", "order_id": "x-MG43PCSNBSLUT63e547dbd131a4804", "creation_timestamp": 1757382467.0, "exchange_order_id": "14005470421", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 01:47:48,051 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e547dbd131a4804 amounting to 0.46900000/0.46900000 SOL has been filled at 212.85000000 USDT.
+2025-09-09 01:47:48,058 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757382468.0, "order_id": "x-MG43PCSNBSLUT63e547dbd131a4804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "212.85000000", "amount": "0.46900000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00046900"}]}, "exchange_trade_id": "1541927856", "exchange_order_id": "14005470421", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 01:47:48,058 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757382468.0, "order_id": "x-MG43PCSNBSLUT63e547dbd131a4804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46900000", "quote_asset_amount": "99.8266500000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14005470421", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 01:47:48,066 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e547dbd131a4804 completely filled.
+2025-09-09 01:47:49,047 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e547dcc70b94804 for 0.46800000 SOL-USDT at 234.13000000.
+2025-09-09 01:47:49,057 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757382469.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "234.13000000", "order_id": "x-MG43PCSNSSLUT63e547dcc70b94804", "creation_timestamp": 1757382468.0, "exchange_order_id": "14005470504", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 02:04:30,659 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 02:08:08,486 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET BUY order x-MG43PCSNBSLUT63e54c67b9f624804 for 0.47000000 SOL-USDT at 212.65500000.
+2025-09-09 02:08:08,505 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757383688.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.47000000", "price": "212.65500000", "order_id": "x-MG43PCSNBSLUT63e54c67b9f624804", "creation_timestamp": 1757383688.0, "exchange_order_id": "14005655924", "leverage": 1, "position": "NIL", "event_name": "BuyOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 02:08:08,506 - 17 - hummingbot.connector.client_order_tracker - INFO - The BUY order x-MG43PCSNBSLUT63e54c67b9f624804 amounting to 0.47000000/0.47000000 SOL has been filled at 212.66000000 USDT.
+2025-09-09 02:08:08,513 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757383688.0, "order_id": "x-MG43PCSNBSLUT63e54c67b9f624804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.BUY", "order_type": "OrderType.MARKET", "price": "212.66000000", "amount": "0.47000000", "trade_fee": {"percent": "0", "percent_token": "SOL", "flat_fees": [{"token": "SOL", "amount": "0.00047000"}]}, "exchange_trade_id": "1541954723", "exchange_order_id": "14005655924", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 02:08:08,514 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757383688.0, "order_id": "x-MG43PCSNBSLUT63e54c67b9f624804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.47000000", "quote_asset_amount": "99.9502000000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14005655924", "event_name": "BuyOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 02:08:08,522 - 17 - hummingbot.connector.client_order_tracker - INFO - BUY order x-MG43PCSNBSLUT63e54c67b9f624804 completely filled.
+2025-09-09 02:08:09,493 - 17 - hummingbot.connector.client_order_tracker - INFO - Created LIMIT SELL order x-MG43PCSNSSLUT63e54c68afedd4804 for 0.46900000 SOL-USDT at 233.92000000.
+2025-09-09 02:08:09,502 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757383689.0, "type": "OrderType.LIMIT", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "233.92000000", "order_id": "x-MG43PCSNSSLUT63e54c68afedd4804", "creation_timestamp": 1757383689.0, "exchange_order_id": "14005655951", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 02:34:31,071 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 03:04:31,452 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 03:34:31,827 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 04:04:32,181 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 04:34:32,540 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 05:04:32,915 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 05:34:33,266 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 06:04:33,629 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 06:34:33,993 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 07:04:34,390 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 07:34:34,754 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 08:04:35,145 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 08:34:35,502 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 09:04:35,889 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 09:34:36,283 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 10:04:36,652 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 10:34:37,014 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 10:39:36,643 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - ERROR - Unexpected error while checking for network status: Cannot connect to host api.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/core/network_base.py", line 84, in _check_network_loop
+    new_status = await asyncio.wait_for(self.check_network(), timeout=self._check_network_timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/kucoin_spot_candles/kucoin_spot_candles.py", line 84, in check_network
+    await rest_assistant.execute_request(url=self.health_check_url,
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 47, in execute_request
+    response = await self.execute_request_and_get_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 94, in execute_request_and_get_response
+    response = await self.call(request=request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 108, in call
+    resp = await wait_for(self._connection.call(request), timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/rest_connection.py", line 10, in call
+    aiohttp_resp = await self._client_session.request(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host api.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 10:40:36,741 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-09 10:40:37,008 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - INFO - Subscribed to public klines...
+2025-09-09 11:04:37,367 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 11:20:00,825 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - ERROR - Unexpected error while checking for network status: Cannot connect to host api.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/core/network_base.py", line 84, in _check_network_loop
+    new_status = await asyncio.wait_for(self.check_network(), timeout=self._check_network_timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/kucoin_spot_candles/kucoin_spot_candles.py", line 84, in check_network
+    await rest_assistant.execute_request(url=self.health_check_url,
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 47, in execute_request
+    response = await self.execute_request_and_get_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 94, in execute_request_and_get_response
+    response = await self.call(request=request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 108, in call
+    resp = await wait_for(self._connection.call(request), timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/rest_connection.py", line 10, in call
+    aiohttp_resp = await self._client_session.request(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host api.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 11:21:00,956 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-09 11:21:21,073 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - ERROR - Unexpected error occurred when listening to public klines. Retrying in 1 seconds...
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/candles_base.py", line 354, in listen_for_subscriptions
+    ws: WSAssistant = await self._connected_websocket_assistant()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/candles_base.py", line 371, in _connected_websocket_assistant
+    await ws.connect(ws_url=self.wss_url, ping_timeout=self._ping_timeout)
+  File "/home/hummingbot/hummingbot/core/web_assistant/ws_assistant.py", line 45, in connect
+    await self._connection.connect(
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/ws_connection.py", line 39, in connect
+    self._connection = await self._client_session.ws_connect(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host ws-api-spot.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 11:21:42,092 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - ERROR - Unexpected error occurred when listening to public klines. Retrying in 1 seconds...
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/candles_base.py", line 354, in listen_for_subscriptions
+    ws: WSAssistant = await self._connected_websocket_assistant()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/candles_base.py", line 371, in _connected_websocket_assistant
+    await ws.connect(ws_url=self.wss_url, ping_timeout=self._ping_timeout)
+  File "/home/hummingbot/hummingbot/core/web_assistant/ws_assistant.py", line 45, in connect
+    await self._connection.connect(
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/ws_connection.py", line 39, in connect
+    self._connection = await self._client_session.ws_connect(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host ws-api-spot.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 11:22:03,112 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - ERROR - Unexpected error occurred when listening to public klines. Retrying in 1 seconds...
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/candles_base.py", line 354, in listen_for_subscriptions
+    ws: WSAssistant = await self._connected_websocket_assistant()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/candles_base.py", line 371, in _connected_websocket_assistant
+    await ws.connect(ws_url=self.wss_url, ping_timeout=self._ping_timeout)
+  File "/home/hummingbot/hummingbot/core/web_assistant/ws_assistant.py", line 45, in connect
+    await self._connection.connect(
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/ws_connection.py", line 39, in connect
+    self._connection = await self._client_session.ws_connect(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 1067, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host ws-api-spot.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 11:22:06,304 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - INFO - Subscribed to public klines...
+2025-09-09 11:28:20,159 - 17 - hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange - WARNING - Failed to fetch trade updates for order x-MG43PCSNSSLUT63e533f47c3224804. Error: Cannot connect to host api.binance.com:443 ssl:default [Temporary failure in name resolution]
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/connector/exchange_py_base.py", line 961, in _update_orders_fills
+    trade_updates = await self._all_trade_updates_for_order(order=order)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/connector/exchange/binance/binance_exchange.py", line 460, in _all_trade_updates_for_order
+    all_fills_response = await self._api_get(
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/connector/exchange_py_base.py", line 869, in _api_get
+    return await self._api_request(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/connector/exchange_py_base.py", line 912, in _api_request
+    request_result = await rest_assistant.execute_request(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 47, in execute_request
+    response = await self.execute_request_and_get_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 94, in execute_request_and_get_response
+    response = await self.call(request=request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 108, in call
+    resp = await wait_for(self._connection.call(request), timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/rest_connection.py", line 10, in call
+    aiohttp_resp = await self._client_session.request(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host api.binance.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 11:28:29,773 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - ERROR - Unexpected error while checking for network status: Cannot connect to host api.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/core/network_base.py", line 84, in _check_network_loop
+    new_status = await asyncio.wait_for(self.check_network(), timeout=self._check_network_timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/kucoin_spot_candles/kucoin_spot_candles.py", line 84, in check_network
+    await rest_assistant.execute_request(url=self.health_check_url,
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 47, in execute_request
+    response = await self.execute_request_and_get_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 94, in execute_request_and_get_response
+    response = await self.call(request=request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 108, in call
+    resp = await wait_for(self._connection.call(request), timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/rest_connection.py", line 10, in call
+    aiohttp_resp = await self._client_session.request(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host api.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 11:29:24,929 - 17 - hummingbot.core.rate_oracle.sources.rate_source_base - ERROR - Unexpected error while retrieving rates from Binance. Check the log file for more info.
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/core/rate_oracle/sources/binance_rate_source.py", line 54, in _get_binance_prices
+    pairs_prices = await exchange.get_all_pairs_prices()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/connector/exchange/binance/binance_exchange.py", line 120, in get_all_pairs_prices
+    pairs_prices = await self._api_get(path_url=CONSTANTS.TICKER_BOOK_PATH_URL)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/connector/exchange_py_base.py", line 869, in _api_get
+    return await self._api_request(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/connector/exchange_py_base.py", line 912, in _api_request
+    request_result = await rest_assistant.execute_request(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 47, in execute_request
+    response = await self.execute_request_and_get_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 94, in execute_request_and_get_response
+    response = await self.call(request=request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 108, in call
+    resp = await wait_for(self._connection.call(request), timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/rest_connection.py", line 10, in call
+    aiohttp_resp = await self._client_session.request(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host api.binance.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 11:29:49,794 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - ERROR - Unexpected error while checking for network status: Cannot connect to host api.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+Traceback (most recent call last):
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1532, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1148, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1179, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/base_events.py", line 905, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/socket.py", line 978, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/core/network_base.py", line 84, in _check_network_loop
+    new_status = await asyncio.wait_for(self.check_network(), timeout=self._check_network_timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/data_feed/candles_feed/kucoin_spot_candles/kucoin_spot_candles.py", line 84, in check_network
+    await rest_assistant.execute_request(url=self.health_check_url,
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 47, in execute_request
+    response = await self.execute_request_and_get_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 94, in execute_request_and_get_response
+    response = await self.call(request=request, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/rest_assistant.py", line 108, in call
+    resp = await wait_for(self._connection.call(request), timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/hummingbot/hummingbot/core/web_assistant/connections/rest_connection.py", line 10, in call
+    aiohttp_resp = await self._client_session.request(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 770, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/client.py", line 725, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 642, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1209, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/aiohttp/connector.py", line 1538, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host api.kucoin.com:443 ssl:default [Temporary failure in name resolution]
+2025-09-09 11:30:49,901 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-09 11:30:50,393 - 17 - hummingbot.data_feed.candles_feed.kucoin_spot_candles.kucoin_spot_candles - INFO - Subscribed to public klines...
+2025-09-09 11:34:37,717 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 12:04:37,394 - 17 - hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange - ERROR - Error parsing the trading pair rule {'symbol': 'USDEUSDC', 'status': 'TRADING', 'baseAsset': 'USDE', 'baseAssetPrecision': 8, 'quoteAsset': 'USDC', 'quotePrecision': 8, 'quoteAssetPrecision': 8, 'baseCommissionPrecision': 8, 'quoteCommissionPrecision': 8, 'orderTypes': ['LIMIT', 'LIMIT_MAKER', 'MARKET', 'STOP_LOSS', 'STOP_LOSS_LIMIT', 'TAKE_PROFIT', 'TAKE_PROFIT_LIMIT'], 'icebergAllowed': True, 'ocoAllowed': True, 'otoAllowed': True, 'quoteOrderQtyMarketAllowed': True, 'allowTrailingStop': True, 'cancelReplaceAllowed': True, 'amendAllowed': True, 'pegInstructionsAllowed': True, 'isSpotTradingAllowed': True, 'isMarginTradingAllowed': True, 'filters': [{'filterType': 'PRICE_FILTER', 'minPrice': '0.80000000', 'maxPrice': '1.20000000', 'tickSize': '0.00010000'}, {'filterType': 'LOT_SIZE', 'minQty': '1.00000000', 'maxQty': '10000000.00000000', 'stepSize': '1.00000000'}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '500000.00000000', 'stepSize': '0.00000000'}, {'filterType': 'TRAILING_DELTA', 'minTrailingAboveDelta': 10, 'maxTrailingAboveDelta': 2000, 'minTrailingBelowDelta': 10, 'maxTrailingBelowDelta': 2000}, {'filterType': 'PERCENT_PRICE_BY_SIDE', 'bidMultiplierUp': '1.1', 'bidMultiplierDown': '0.9', 'askMultiplierUp': '1.1', 'askMultiplierDown': '0.9', 'avgPriceMins': 5}, {'filterType': 'NOTIONAL', 'minNotional': '5.00000000', 'applyMinToMarket': True, 'maxNotional': '9000000.00000000', 'applyMaxToMarket': False, 'avgPriceMins': 5}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}], 'permissions': [], 'permissionSets': [['SPOT', 'MARGIN', 'TRD_GRP_004', 'TRD_GRP_016', 'TRD_GRP_017', 'TRD_GRP_018', 'TRD_GRP_019', 'TRD_GRP_020', 'TRD_GRP_021', 'TRD_GRP_022', 'TRD_GRP_023', 'TRD_GRP_049', 'TRD_GRP_050', 'TRD_GRP_051', 'TRD_GRP_052', 'TRD_GRP_053', 'TRD_GRP_055', 'TRD_GRP_056', 'TRD_GRP_057', 'TRD_GRP_058', 'TRD_GRP_059', 'TRD_GRP_060', 'TRD_GRP_061', 'TRD_GRP_062', 'TRD_GRP_063', 'TRD_GRP_064', 'TRD_GRP_065', 'TRD_GRP_067', 'TRD_GRP_068', 'TRD_GRP_069', 'TRD_GRP_070', 'TRD_GRP_071', 'TRD_GRP_072', 'TRD_GRP_073', 'TRD_GRP_074', 'TRD_GRP_075', 'TRD_GRP_076', 'TRD_GRP_077', 'TRD_GRP_078', 'TRD_GRP_079', 'TRD_GRP_081', 'TRD_GRP_082', 'TRD_GRP_083', 'TRD_GRP_084', 'TRD_GRP_085', 'TRD_GRP_086', 'TRD_GRP_087', 'TRD_GRP_088', 'TRD_GRP_089', 'TRD_GRP_090', 'TRD_GRP_091', 'TRD_GRP_092', 'TRD_GRP_093', 'TRD_GRP_094', 'TRD_GRP_095', 'TRD_GRP_096', 'TRD_GRP_097', 'TRD_GRP_098', 'TRD_GRP_099', 'TRD_GRP_100', 'TRD_GRP_101', 'TRD_GRP_102', 'TRD_GRP_103', 'TRD_GRP_104', 'TRD_GRP_105', 'TRD_GRP_106', 'TRD_GRP_107', 'TRD_GRP_108', 'TRD_GRP_109', 'TRD_GRP_110', 'TRD_GRP_111', 'TRD_GRP_112', 'TRD_GRP_113', 'TRD_GRP_114', 'TRD_GRP_115', 'TRD_GRP_116', 'TRD_GRP_117', 'TRD_GRP_118', 'TRD_GRP_119', 'TRD_GRP_120', 'TRD_GRP_121', 'TRD_GRP_122', 'TRD_GRP_123', 'TRD_GRP_124', 'TRD_GRP_125', 'TRD_GRP_126', 'TRD_GRP_127', 'TRD_GRP_128', 'TRD_GRP_129', 'TRD_GRP_130', 'TRD_GRP_131', 'TRD_GRP_132', 'TRD_GRP_133', 'TRD_GRP_134', 'TRD_GRP_135', 'TRD_GRP_136', 'TRD_GRP_137', 'TRD_GRP_138', 'TRD_GRP_139', 'TRD_GRP_140', 'TRD_GRP_141', 'TRD_GRP_142', 'TRD_GRP_143', 'TRD_GRP_144', 'TRD_GRP_145', 'TRD_GRP_146', 'TRD_GRP_147', 'TRD_GRP_148', 'TRD_GRP_149', 'TRD_GRP_150', 'TRD_GRP_151', 'TRD_GRP_152', 'TRD_GRP_153', 'TRD_GRP_154', 'TRD_GRP_155', 'TRD_GRP_156', 'TRD_GRP_157', 'TRD_GRP_158', 'TRD_GRP_159', 'TRD_GRP_160', 'TRD_GRP_161', 'TRD_GRP_162', 'TRD_GRP_163', 'TRD_GRP_164', 'TRD_GRP_165', 'TRD_GRP_166', 'TRD_GRP_167', 'TRD_GRP_168', 'TRD_GRP_169', 'TRD_GRP_170', 'TRD_GRP_171', 'TRD_GRP_172', 'TRD_GRP_173', 'TRD_GRP_174', 'TRD_GRP_175', 'TRD_GRP_176', 'TRD_GRP_177', 'TRD_GRP_178', 'TRD_GRP_179', 'TRD_GRP_181', 'TRD_GRP_182', 'TRD_GRP_183', 'TRD_GRP_184', 'TRD_GRP_185', 'TRD_GRP_186', 'TRD_GRP_187', 'TRD_GRP_188', 'TRD_GRP_189', 'TRD_GRP_190', 'TRD_GRP_191', 'TRD_GRP_192', 'TRD_GRP_193', 'TRD_GRP_194', 'TRD_GRP_195', 'TRD_GRP_196', 'TRD_GRP_197', 'TRD_GRP_198', 'TRD_GRP_199', 'TRD_GRP_200', 'TRD_GRP_201', 'TRD_GRP_202', 'TRD_GRP_203', 'TRD_GRP_204', 'TRD_GRP_205', 'TRD_GRP_206', 'TRD_GRP_208', 'TRD_GRP_209', 'TRD_GRP_210', 'TRD_GRP_211', 'TRD_GRP_212', 'TRD_GRP_213', 'TRD_GRP_214', 'TRD_GRP_215', 'TRD_GRP_216', 'TRD_GRP_217', 'TRD_GRP_218', 'TRD_GRP_219', 'TRD_GRP_220', 'TRD_GRP_221', 'TRD_GRP_222', 'TRD_GRP_223', 'TRD_GRP_224', 'TRD_GRP_225', 'TRD_GRP_226', 'TRD_GRP_227', 'TRD_GRP_228', 'TRD_GRP_229', 'TRD_GRP_230', 'TRD_GRP_231', 'TRD_GRP_232', 'TRD_GRP_233', 'TRD_GRP_234', 'TRD_GRP_235', 'TRD_GRP_236', 'TRD_GRP_237', 'TRD_GRP_238']], 'defaultSelfTradePreventionMode': 'EXPIRE_MAKER', 'allowedSelfTradePreventionModes': ['EXPIRE_TAKER', 'EXPIRE_MAKER', 'EXPIRE_BOTH', 'DECREMENT']}. Skipping.
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/connector/exchange/binance/binance_exchange.py", line 259, in _format_trading_rules
+    trading_pair = await self.trading_pair_associated_to_exchange_symbol(symbol=rule.get("symbol"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "hummingbot/connector/exchange_base.pyx", line 108, in trading_pair_associated_to_exchange_symbol
+    return symbol_map[symbol]
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/bidict/_base.py", line 524, in __getitem__
+    return self._fwdm[key]
+           ~~~~~~~~~~^^^^^
+KeyError: 'USDEUSDC'
+2025-09-09 12:04:37,395 - 17 - hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange - ERROR - Error parsing the trading pair rule {'symbol': 'USDEUSDT', 'status': 'TRADING', 'baseAsset': 'USDE', 'baseAssetPrecision': 8, 'quoteAsset': 'USDT', 'quotePrecision': 8, 'quoteAssetPrecision': 8, 'baseCommissionPrecision': 8, 'quoteCommissionPrecision': 8, 'orderTypes': ['LIMIT', 'LIMIT_MAKER', 'MARKET', 'STOP_LOSS', 'STOP_LOSS_LIMIT', 'TAKE_PROFIT', 'TAKE_PROFIT_LIMIT'], 'icebergAllowed': True, 'ocoAllowed': True, 'otoAllowed': True, 'quoteOrderQtyMarketAllowed': True, 'allowTrailingStop': True, 'cancelReplaceAllowed': True, 'amendAllowed': True, 'pegInstructionsAllowed': True, 'isSpotTradingAllowed': True, 'isMarginTradingAllowed': True, 'filters': [{'filterType': 'PRICE_FILTER', 'minPrice': '0.80000000', 'maxPrice': '1.20000000', 'tickSize': '0.00010000'}, {'filterType': 'LOT_SIZE', 'minQty': '1.00000000', 'maxQty': '10000000.00000000', 'stepSize': '1.00000000'}, {'filterType': 'ICEBERG_PARTS', 'limit': 10}, {'filterType': 'MARKET_LOT_SIZE', 'minQty': '0.00000000', 'maxQty': '500000.00000000', 'stepSize': '0.00000000'}, {'filterType': 'TRAILING_DELTA', 'minTrailingAboveDelta': 10, 'maxTrailingAboveDelta': 2000, 'minTrailingBelowDelta': 10, 'maxTrailingBelowDelta': 2000}, {'filterType': 'PERCENT_PRICE_BY_SIDE', 'bidMultiplierUp': '1.1', 'bidMultiplierDown': '0.9', 'askMultiplierUp': '1.1', 'askMultiplierDown': '0.9', 'avgPriceMins': 5}, {'filterType': 'NOTIONAL', 'minNotional': '5.00000000', 'applyMinToMarket': True, 'maxNotional': '9000000.00000000', 'applyMaxToMarket': False, 'avgPriceMins': 5}, {'filterType': 'MAX_NUM_ORDERS', 'maxNumOrders': 200}, {'filterType': 'MAX_NUM_ALGO_ORDERS', 'maxNumAlgoOrders': 5}], 'permissions': [], 'permissionSets': [['SPOT', 'MARGIN', 'TRD_GRP_004', 'TRD_GRP_016', 'TRD_GRP_017', 'TRD_GRP_018', 'TRD_GRP_019', 'TRD_GRP_020', 'TRD_GRP_021', 'TRD_GRP_022', 'TRD_GRP_023', 'TRD_GRP_049', 'TRD_GRP_050', 'TRD_GRP_051', 'TRD_GRP_052', 'TRD_GRP_053', 'TRD_GRP_055', 'TRD_GRP_056', 'TRD_GRP_057', 'TRD_GRP_058', 'TRD_GRP_059', 'TRD_GRP_060', 'TRD_GRP_061', 'TRD_GRP_062', 'TRD_GRP_063', 'TRD_GRP_064', 'TRD_GRP_065', 'TRD_GRP_067', 'TRD_GRP_068', 'TRD_GRP_069', 'TRD_GRP_070', 'TRD_GRP_071', 'TRD_GRP_072', 'TRD_GRP_073', 'TRD_GRP_074', 'TRD_GRP_075', 'TRD_GRP_076', 'TRD_GRP_077', 'TRD_GRP_078', 'TRD_GRP_079', 'TRD_GRP_081', 'TRD_GRP_082', 'TRD_GRP_083', 'TRD_GRP_084', 'TRD_GRP_085', 'TRD_GRP_086', 'TRD_GRP_087', 'TRD_GRP_088', 'TRD_GRP_089', 'TRD_GRP_090', 'TRD_GRP_091', 'TRD_GRP_092', 'TRD_GRP_093', 'TRD_GRP_094', 'TRD_GRP_095', 'TRD_GRP_096', 'TRD_GRP_097', 'TRD_GRP_098', 'TRD_GRP_099', 'TRD_GRP_100', 'TRD_GRP_101', 'TRD_GRP_102', 'TRD_GRP_103', 'TRD_GRP_104', 'TRD_GRP_105', 'TRD_GRP_106', 'TRD_GRP_107', 'TRD_GRP_108', 'TRD_GRP_109', 'TRD_GRP_110', 'TRD_GRP_111', 'TRD_GRP_112', 'TRD_GRP_113', 'TRD_GRP_114', 'TRD_GRP_115', 'TRD_GRP_116', 'TRD_GRP_117', 'TRD_GRP_118', 'TRD_GRP_119', 'TRD_GRP_120', 'TRD_GRP_121', 'TRD_GRP_122', 'TRD_GRP_123', 'TRD_GRP_124', 'TRD_GRP_125', 'TRD_GRP_126', 'TRD_GRP_127', 'TRD_GRP_128', 'TRD_GRP_129', 'TRD_GRP_130', 'TRD_GRP_131', 'TRD_GRP_132', 'TRD_GRP_133', 'TRD_GRP_134', 'TRD_GRP_135', 'TRD_GRP_136', 'TRD_GRP_137', 'TRD_GRP_138', 'TRD_GRP_139', 'TRD_GRP_140', 'TRD_GRP_141', 'TRD_GRP_142', 'TRD_GRP_143', 'TRD_GRP_144', 'TRD_GRP_145', 'TRD_GRP_146', 'TRD_GRP_147', 'TRD_GRP_148', 'TRD_GRP_149', 'TRD_GRP_150', 'TRD_GRP_151', 'TRD_GRP_152', 'TRD_GRP_153', 'TRD_GRP_154', 'TRD_GRP_155', 'TRD_GRP_156', 'TRD_GRP_157', 'TRD_GRP_158', 'TRD_GRP_159', 'TRD_GRP_160', 'TRD_GRP_161', 'TRD_GRP_162', 'TRD_GRP_163', 'TRD_GRP_164', 'TRD_GRP_165', 'TRD_GRP_166', 'TRD_GRP_167', 'TRD_GRP_168', 'TRD_GRP_169', 'TRD_GRP_170', 'TRD_GRP_171', 'TRD_GRP_172', 'TRD_GRP_173', 'TRD_GRP_174', 'TRD_GRP_175', 'TRD_GRP_176', 'TRD_GRP_177', 'TRD_GRP_178', 'TRD_GRP_179', 'TRD_GRP_181', 'TRD_GRP_182', 'TRD_GRP_183', 'TRD_GRP_184', 'TRD_GRP_185', 'TRD_GRP_186', 'TRD_GRP_187', 'TRD_GRP_188', 'TRD_GRP_189', 'TRD_GRP_190', 'TRD_GRP_191', 'TRD_GRP_192', 'TRD_GRP_193', 'TRD_GRP_194', 'TRD_GRP_195', 'TRD_GRP_196', 'TRD_GRP_197', 'TRD_GRP_198', 'TRD_GRP_199', 'TRD_GRP_200', 'TRD_GRP_201', 'TRD_GRP_202', 'TRD_GRP_203', 'TRD_GRP_204', 'TRD_GRP_205', 'TRD_GRP_206', 'TRD_GRP_208', 'TRD_GRP_209', 'TRD_GRP_210', 'TRD_GRP_211', 'TRD_GRP_212', 'TRD_GRP_213', 'TRD_GRP_214', 'TRD_GRP_215', 'TRD_GRP_216', 'TRD_GRP_217', 'TRD_GRP_218', 'TRD_GRP_219', 'TRD_GRP_220', 'TRD_GRP_221', 'TRD_GRP_222', 'TRD_GRP_223', 'TRD_GRP_224', 'TRD_GRP_225', 'TRD_GRP_226', 'TRD_GRP_227', 'TRD_GRP_228', 'TRD_GRP_229', 'TRD_GRP_230', 'TRD_GRP_231', 'TRD_GRP_232', 'TRD_GRP_233', 'TRD_GRP_234', 'TRD_GRP_235', 'TRD_GRP_236', 'TRD_GRP_237', 'TRD_GRP_238']], 'defaultSelfTradePreventionMode': 'EXPIRE_MAKER', 'allowedSelfTradePreventionModes': ['EXPIRE_TAKER', 'EXPIRE_MAKER', 'EXPIRE_BOTH', 'DECREMENT']}. Skipping.
+Traceback (most recent call last):
+  File "/home/hummingbot/hummingbot/connector/exchange/binance/binance_exchange.py", line 259, in _format_trading_rules
+    trading_pair = await self.trading_pair_associated_to_exchange_symbol(symbol=rule.get("symbol"))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "hummingbot/connector/exchange_base.pyx", line 108, in trading_pair_associated_to_exchange_symbol
+    return symbol_map[symbol]
+  File "/opt/conda/envs/hummingbot/lib/python3.12/site-packages/bidict/_base.py", line 524, in __getitem__
+    return self._fwdm[key]
+           ~~~~~~~~~~^^^^^
+KeyError: 'USDEUSDT'
+2025-09-09 12:04:38,106 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 12:34:38,471 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 13:04:38,831 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 13:34:39,182 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 14:04:39,658 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-09 14:05:49,021 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - WARNING - The websocket connection was closed (The WS connection was closed unexpectedly. Close code = 1006 msg data: 1008)
+2025-09-09 14:05:49,279 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2025-09-09 14:07:53,660 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e541f68422f4804. [clock=2025-09-09 14:07:53+00:00]
+2025-09-09 14:07:53,689 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e547dcc70b94804. [clock=2025-09-09 14:07:53+00:00]
+2025-09-09 14:07:53,690 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e542a2b27404804. [clock=2025-09-09 14:07:53+00:00]
+2025-09-09 14:07:53,691 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e54c68afedd4804. [clock=2025-09-09 14:07:53+00:00]
+2025-09-09 14:07:53,779 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426873.0, "order_id": "x-MG43PCSNSSLUT63e541f68422f4804", "exchange_order_id": "14005132158", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:53,780 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e541f68422f4804.
+2025-09-09 14:07:53,848 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed48668394804 for 0.46800000 SOL-USDT at NaN.
+2025-09-09 14:07:53,857 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426873.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed48668394804", "creation_timestamp": 1757426873.0, "exchange_order_id": "14013696110", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:53,864 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426873.0, "order_id": "x-MG43PCSNSSLUT63e542a2b27404804", "exchange_order_id": "14005164311", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:53,864 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e542a2b27404804.
+2025-09-09 14:07:53,865 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed48669f54804 for 0.46800000 SOL-USDT at NaN.
+2025-09-09 14:07:53,873 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426873.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed48669f54804", "creation_timestamp": 1757426873.0, "exchange_order_id": "14013696111", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:53,880 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426873.0, "order_id": "x-MG43PCSNSSLUT63e54c68afedd4804", "exchange_order_id": "14005655951", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:53,880 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e54c68afedd4804.
+2025-09-09 14:07:53,881 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed4866d3a4804 for 0.46900000 SOL-USDT at NaN.
+2025-09-09 14:07:53,886 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426873.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed4866d3a4804", "creation_timestamp": 1757426873.0, "exchange_order_id": "14013696112", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:53,894 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426873.0, "order_id": "x-MG43PCSNSSLUT63e547dcc70b94804", "exchange_order_id": "14005470504", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:53,894 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e547dcc70b94804.
+2025-09-09 14:07:53,895 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed485f5724804 for 0.46800000 SOL-USDT at NaN.
+2025-09-09 14:07:53,901 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426873.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed485f5724804", "creation_timestamp": 1757426873.0, "exchange_order_id": "14013696116", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:54,102 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed48668394804 amounting to 0.28700000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,112 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48668394804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.28700000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.06185424"}]}, "exchange_trade_id": "1543111697", "exchange_order_id": "14013696110", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,113 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed48668394804 amounting to 0.33000000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,120 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48668394804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.04300000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.00926736"}]}, "exchange_trade_id": "1543111698", "exchange_order_id": "14013696110", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,120 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed48668394804 amounting to 0.46800000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,129 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48668394804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.13800000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.02974176"}]}, "exchange_trade_id": "1543111699", "exchange_order_id": "14013696110", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,130 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48668394804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46800000", "quote_asset_amount": "100.8633600000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013696110", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:54,137 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed48668394804 completely filled.
+2025-09-09 14:07:54,214 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed48669f54804 amounting to 0.02000000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,223 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48669f54804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.02000000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.00431040"}]}, "exchange_trade_id": "1543111700", "exchange_order_id": "14013696111", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,224 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed48669f54804 amounting to 0.05700000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,232 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48669f54804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.03700000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.00797424"}]}, "exchange_trade_id": "1543111701", "exchange_order_id": "14013696111", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,233 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed48669f54804 amounting to 0.08100000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,241 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48669f54804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.02400000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.00517248"}]}, "exchange_trade_id": "1543111702", "exchange_order_id": "14013696111", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,241 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed48669f54804 amounting to 0.46800000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,249 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48669f54804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.38700000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.08340624"}]}, "exchange_trade_id": "1543111703", "exchange_order_id": "14013696111", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,249 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed4866d3a4804 amounting to 0.46900000/0.46900000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,258 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed4866d3a4804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.46900000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.10107888"}]}, "exchange_trade_id": "1543111704", "exchange_order_id": "14013696112", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,259 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed485f5724804 amounting to 0.46800000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:54,268 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed485f5724804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.46800000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.10086336"}]}, "exchange_trade_id": "1543111706", "exchange_order_id": "14013696116", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:54,269 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed48669f54804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46800000", "quote_asset_amount": "100.8633600000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013696111", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:54,277 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed48669f54804 completely filled.
+2025-09-09 14:07:54,277 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed4866d3a4804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46900000", "quote_asset_amount": "101.0788800000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013696112", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:54,284 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed4866d3a4804 completely filled.
+2025-09-09 14:07:54,285 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426874.0, "order_id": "x-MG43PCSNSSLUT63e5ed485f5724804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46800000", "quote_asset_amount": "100.8633600000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013696116", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:54,292 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed485f5724804 completely filled.
+2025-09-09 14:07:55,677 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e5409e295314804. [clock=2025-09-09 14:07:55+00:00]
+2025-09-09 14:07:55,678 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e53d30cf5264804. [clock=2025-09-09 14:07:55+00:00]
+2025-09-09 14:07:55,730 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e5414a59c664804. [clock=2025-09-09 14:07:55+00:00]
+2025-09-09 14:07:55,731 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e53c849fdd64804. [clock=2025-09-09 14:07:55+00:00]
+2025-09-09 14:07:55,731 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e53de3bbfdb4804. [clock=2025-09-09 14:07:55+00:00]
+2025-09-09 14:07:55,810 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e5409e295314804", "exchange_order_id": "14005069038", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:55,810 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e5409e295314804.
+2025-09-09 14:07:55,810 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed4a4be5c4804 amounting to 0.46800000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:55,818 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a4be5c4804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.46800000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.10086336"}]}, "exchange_trade_id": "1543111999", "exchange_order_id": "14013697853", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:55,819 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed4a4be5c4804 for 0.46800000 SOL-USDT at NaN.
+2025-09-09 14:07:55,825 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed4a4be5c4804", "creation_timestamp": 1757426875.0, "exchange_order_id": "14013697853", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:55,833 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e53d30cf5264804", "exchange_order_id": "14004919820", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:55,833 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e53d30cf5264804.
+2025-09-09 14:07:55,834 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed4a4c1124804 for 0.46900000 SOL-USDT at NaN.
+2025-09-09 14:07:55,842 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46900000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed4a4c1124804", "creation_timestamp": 1757426875.0, "exchange_order_id": "14013697866", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:55,852 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a4be5c4804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46800000", "quote_asset_amount": "100.8633600000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013697853", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:55,858 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed4a4be5c4804 completely filled.
+2025-09-09 14:07:55,866 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e5414a59c664804", "exchange_order_id": "14005103630", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:55,866 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e5414a59c664804.
+2025-09-09 14:07:55,876 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed4a58b264804 for 0.46800000 SOL-USDT at NaN.
+2025-09-09 14:07:55,882 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46800000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed4a58b264804", "creation_timestamp": 1757426875.0, "exchange_order_id": "14013697884", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:55,889 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e53c849fdd64804", "exchange_order_id": "14004900207", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:55,889 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e53c849fdd64804.
+2025-09-09 14:07:55,890 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed4a58e774804 for 0.46700000 SOL-USDT at NaN.
+2025-09-09 14:07:55,896 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46700000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed4a58e774804", "creation_timestamp": 1757426875.0, "exchange_order_id": "14013697916", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:56,016 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed4a4c1124804 amounting to 0.46900000/0.46900000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:56,025 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a4c1124804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.46900000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.10107888"}]}, "exchange_trade_id": "1543112000", "exchange_order_id": "14013697866", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:56,025 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed4a58b264804 amounting to 0.46800000/0.46800000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:56,032 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a58b264804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.46800000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.10086336"}]}, "exchange_trade_id": "1543112001", "exchange_order_id": "14013697884", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:56,039 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a4c1124804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46900000", "quote_asset_amount": "101.0788800000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013697866", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:56,047 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed4a4c1124804 completely filled.
+2025-09-09 14:07:56,047 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a58b264804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46800000", "quote_asset_amount": "100.8633600000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013697884", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:56,053 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed4a58b264804 completely filled.
+2025-09-09 14:07:56,059 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426875.0, "order_id": "x-MG43PCSNSSLUT63e53de3bbfdb4804", "exchange_order_id": "14004962221", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:07:56,060 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e53de3bbfdb4804.
+2025-09-09 14:07:56,071 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed4a58e774804 amounting to 0.46700000/0.46700000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:56,079 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426876.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a58e774804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.46700000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.10064784"}]}, "exchange_trade_id": "1543112002", "exchange_order_id": "14013697916", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:56,081 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426876.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a58e774804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46700000", "quote_asset_amount": "100.6478400000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013697916", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:56,088 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed4a58e774804 completely filled.
+2025-09-09 14:07:56,096 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed4a5903e4804 for 0.46700000 SOL-USDT at NaN.
+2025-09-09 14:07:56,102 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426876.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46700000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed4a5903e4804", "creation_timestamp": 1757426875.0, "exchange_order_id": "14013697970", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:07:56,103 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed4a5903e4804 amounting to 0.46700000/0.46700000 SOL has been filled at 215.52000000 USDT.
+2025-09-09 14:07:56,110 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426876.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a5903e4804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.52000000", "amount": "0.46700000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.10064784"}]}, "exchange_trade_id": "1543112012", "exchange_order_id": "14013697970", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:07:56,118 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426876.0, "order_id": "x-MG43PCSNSSLUT63e5ed4a5903e4804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46700000", "quote_asset_amount": "100.6478400000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013697970", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:07:56,124 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed4a5903e4804 completely filled.
+2025-09-09 14:08:27,946 - 17 - hummingbot.strategy.script_strategy_base - INFO - (SOL-USDT) Canceling the limit order x-MG43PCSNSSLUT63e533f47c3224804. [clock=2025-09-09 14:08:27+00:00]
+2025-09-09 14:08:28,026 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426908.0, "order_id": "x-MG43PCSNSSLUT63e533f47c3224804", "exchange_order_id": "14004314467", "event_name": "OrderCancelledEvent", "event_source": "binance"}
+2025-09-09 14:08:28,026 - 17 - hummingbot.connector.client_order_tracker - INFO - Successfully canceled order x-MG43PCSNSSLUT63e533f47c3224804.
+2025-09-09 14:08:28,038 - 17 - hummingbot.connector.client_order_tracker - INFO - Created MARKET SELL order x-MG43PCSNSSLUT63e5ed6911e6b4804 for 0.46600000 SOL-USDT at NaN.
+2025-09-09 14:08:28,045 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426908.0, "type": "OrderType.MARKET", "trading_pair": "SOL-USDT", "amount": "0.46600000", "price": "NaN", "order_id": "x-MG43PCSNSSLUT63e5ed6911e6b4804", "creation_timestamp": 1757426907.0, "exchange_order_id": "14013726344", "leverage": 1, "position": "NIL", "event_name": "SellOrderCreatedEvent", "event_source": "binance"}
+2025-09-09 14:08:28,400 - 17 - hummingbot.connector.client_order_tracker - INFO - The SELL order x-MG43PCSNSSLUT63e5ed6911e6b4804 amounting to 0.46600000/0.46600000 SOL has been filled at 215.38000000 USDT.
+2025-09-09 14:08:28,410 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426908.0, "order_id": "x-MG43PCSNSSLUT63e5ed6911e6b4804", "trading_pair": "SOL-USDT", "trade_type": "TradeType.SELL", "order_type": "OrderType.MARKET", "price": "215.38000000", "amount": "0.46600000", "trade_fee": {"percent": "0", "percent_token": "USDT", "flat_fees": [{"token": "USDT", "amount": "0.10036708"}]}, "exchange_trade_id": "1543116379", "exchange_order_id": "14013726344", "leverage": 1, "position": "NIL", "event_name": "OrderFilledEvent", "event_source": "binance"}
+2025-09-09 14:08:28,411 - 17 - hummingbot.core.event.event_reporter - EVENT_LOG - {"timestamp": 1757426908.0, "order_id": "x-MG43PCSNSSLUT63e5ed6911e6b4804", "base_asset": "SOL", "quote_asset": "USDT", "base_asset_amount": "0.46600000", "quote_asset_amount": "100.3670800000000000", "order_type": "OrderType.MARKET", "exchange_order_id": "14013726344", "event_name": "SellOrderCompletedEvent", "event_source": "binance"}
+2025-09-09 14:08:28,418 - 17 - hummingbot.connector.client_order_tracker - INFO - SELL order x-MG43PCSNSSLUT63e5ed6911e6b4804 completely filled.
