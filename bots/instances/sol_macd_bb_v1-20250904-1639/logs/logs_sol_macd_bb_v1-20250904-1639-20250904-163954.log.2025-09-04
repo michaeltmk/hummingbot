@@ -1,0 +1,395 @@
+2025-09-04 16:40:00,422 - 17 - hummingbot.core.trading_core - INFO - Markets recorder initialized with database: sol_macd_bb_v1-20250904-1639-20250904-163954
+2025-09-04 16:40:00,432 - 17 - hummingbot.core.trading_core - INFO - Creating the clock with tick size: 1.0
+2025-09-04 16:40:00,432 - 17 - hummingbot.core.trading_core - INFO - Clock started successfully
+2025-09-04 16:40:00,433 - 17 - hummingbot.core.trading_core - INFO - 'v2_with_controllers' strategy execution started.
+2025-09-04 16:40:00,433 - 17 - hummingbot.core.trading_core - INFO - Strategy v2_with_controllers started successfully
+2025-09-04 16:40:00,526 - 17 - hummingbot.data_feed.candles_feed.binance_spot_candles.binance_spot_candles - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-04 16:40:00,589 - 17 - hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-04 16:40:00,590 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Starting listen key management task...
+2025-09-04 16:40:00,664 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully obtained listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 16:40:00,664 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Connecting to user stream with listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 16:40:00,953 - 17 - hummingbot.data_feed.candles_feed.binance_spot_candles.binance_spot_candles - INFO - Subscribed to public klines...
+2025-09-04 16:40:01,572 - 17 - hummingbot.core.rate_oracle.rate_oracle - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-04 16:40:01,625 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2025-09-04 16:40:01,627 - 17 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2025-09-04 16:40:01,628 - 17 - hummingbot.client.hummingbot_application - INFO - MQTT Bridge connected with success.
+2025-09-04 16:40:01,638 - 17 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for SOL-USDT. 1/1 completed.
+2025-09-04 16:40:01,681 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully connected to user stream
+2025-09-04 16:40:02,000 - 17 - hummingbot.strategy.script_strategy_base - WARNING - binance is not ready. Please wait...
+2025-09-04 17:10:01,068 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 17:40:01,448 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 18:10:01,793 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 18:40:02,190 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 19:10:02,538 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 19:40:02,890 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 19:58:58,532 - 17 - hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-04 19:58:58,534 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - User stream interrupted. Cleaning up...
+2025-09-04 19:58:58,537 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Starting listen key management task...
+2025-09-04 19:58:58,598 - 17 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for SOL-USDT. 1/1 completed.
+2025-09-04 19:58:58,616 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully obtained listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 19:58:58,616 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Connecting to user stream with listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 19:58:58,854 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2025-09-04 19:58:58,970 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully connected to user stream
+2025-09-04 20:28:58,999 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 20:58:59,502 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 21:28:59,885 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 21:59:00,270 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 22:29:00,642 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 22:59:01,084 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 23:29:01,433 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-04 23:59:01,815 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 00:29:02,175 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 00:59:02,586 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 01:29:02,927 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 01:59:03,276 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 02:29:03,642 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 02:59:03,994 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 03:29:04,475 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 03:52:00,103 - 17 - hummingbot.data_feed.candles_feed.binance_spot_candles.binance_spot_candles - WARNING - The websocket connection was closed (The WS connection was closed unexpectedly. Close code = 1006 msg data: None)
+2025-09-05 03:52:00,344 - 17 - hummingbot.data_feed.candles_feed.binance_spot_candles.binance_spot_candles - INFO - Subscribed to public klines...
+2025-09-05 03:59:04,949 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 04:29:05,302 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 04:59:05,649 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 05:23:00,148 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - WARNING - The websocket connection was closed (The WS connection was closed unexpectedly. Close code = 1006 msg data: None)
+2025-09-05 05:23:00,149 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - User stream interrupted. Cleaning up...
+2025-09-05 05:23:00,149 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Starting listen key management task...
+2025-09-05 05:23:00,206 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully obtained listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 05:23:00,206 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Connecting to user stream with listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 05:23:00,389 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully connected to user stream
+2025-09-05 05:53:00,563 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 06:19:00,086 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - WARNING - The websocket connection was closed (The WS connection was closed unexpectedly. Close code = 1006 msg data: None)
+2025-09-05 06:19:00,329 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2025-09-05 06:23:00,922 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 06:53:01,277 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 07:23:01,683 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 07:53:02,036 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 08:23:02,415 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 08:53:02,781 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 09:23:03,137 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 09:53:03,579 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 10:23:03,934 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 10:53:04,276 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 11:23:04,611 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 11:53:04,963 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 12:23:05,314 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 12:53:05,668 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 13:23:06,054 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 13:53:06,406 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 14:23:06,740 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 14:53:07,101 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 15:00:51,029 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:01:21,046 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:01:31,047 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:02:01,062 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:02:11,063 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:02:41,078 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:02:51,080 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:03:21,109 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:03:31,110 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:04:01,125 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:04:11,127 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:04:41,143 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:04:51,143 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:05:21,159 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:05:31,161 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:06:01,178 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:06:11,180 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:06:41,195 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:06:51,197 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:07:21,212 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:07:31,215 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:08:01,229 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:08:11,230 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:08:41,246 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:08:51,248 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:09:21,264 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:09:31,265 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:10:01,281 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:10:11,282 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:10:41,297 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:10:51,299 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:11:21,315 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:11:31,316 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:12:01,328 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:12:11,329 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:12:41,342 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:12:51,343 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:13:21,359 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:13:31,360 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:14:01,376 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:14:11,377 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:14:41,393 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:14:51,394 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:15:21,410 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:15:31,411 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:16:01,427 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:16:11,428 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:16:41,441 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:16:51,442 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:17:21,458 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:17:31,459 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:18:01,473 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:18:11,475 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:18:41,490 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:18:51,491 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:19:21,505 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:19:31,507 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:20:01,522 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:20:11,523 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:20:41,536 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:20:51,537 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:21:21,551 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:21:31,553 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:22:01,569 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:22:11,571 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:22:41,587 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:22:51,588 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:23:21,604 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:23:21,852 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 15:23:31,605 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:24:01,621 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:24:11,622 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:24:41,637 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:24:51,639 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:25:21,654 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:25:31,655 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:26:01,670 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:26:11,672 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:26:41,689 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:26:51,691 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:27:21,707 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:27:31,708 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:28:01,725 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:28:11,726 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:28:41,742 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:28:51,743 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:29:21,756 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:29:31,758 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:30:01,774 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:30:11,776 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:30:41,790 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:30:41,899 - 17 - hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-05 15:30:41,901 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - User stream interrupted. Cleaning up...
+2025-09-05 15:30:41,903 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Starting listen key management task...
+2025-09-05 15:30:41,959 - 17 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for SOL-USDT. 1/1 completed.
+2025-09-05 15:30:41,961 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully obtained listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 15:30:41,961 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Connecting to user stream with listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 15:30:42,109 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2025-09-05 15:30:42,331 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully connected to user stream
+2025-09-05 15:30:51,792 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:31:21,805 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:31:31,806 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:32:01,823 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:32:11,824 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:32:41,838 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:32:51,839 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:33:21,981 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:33:31,982 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:34:02,003 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:34:12,005 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:34:42,026 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:34:52,027 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:35:22,042 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:35:32,044 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:36:02,060 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:36:12,062 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:36:42,078 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:36:52,079 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:37:22,094 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:37:32,095 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:38:02,108 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:38:12,110 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:38:42,125 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:38:52,126 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:39:22,141 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:39:32,142 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:40:02,158 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:40:12,159 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:40:42,172 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:40:52,173 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:41:22,188 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:41:32,188 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:42:02,203 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:42:12,205 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:42:42,219 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:42:52,220 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:43:22,236 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:43:32,237 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:44:02,252 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:44:12,253 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:44:42,267 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:44:52,269 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:45:22,286 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:45:32,288 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:46:02,300 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:46:12,302 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:46:42,319 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:46:52,321 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:47:22,336 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:47:32,337 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:48:02,353 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:48:12,354 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:48:42,370 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:48:52,371 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:49:22,387 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:49:32,388 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:50:02,406 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:50:12,407 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:50:42,423 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:50:52,424 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:51:22,442 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:51:32,443 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:52:02,460 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:52:07,483 - 17 - root - ERROR - Error getting last traded prices in connector <hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange object at 0x78601b513610> for trading pairs ['SOL-USDT']: 
+2025-09-05 15:52:12,462 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:52:42,478 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:52:42,583 - 17 - hummingbot.connector.exchange.binance.binance_exchange.BinanceExchange - INFO - Network status has changed to NetworkStatus.CONNECTED. Starting networking...
+2025-09-05 15:52:42,584 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - User stream interrupted. Cleaning up...
+2025-09-05 15:52:42,726 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Starting listen key management task...
+2025-09-05 15:52:42,731 - 17 - hummingbot.core.data_type.order_book_tracker - INFO - Initialized order book for SOL-USDT. 1/1 completed.
+2025-09-05 15:52:42,794 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully obtained listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 15:52:42,794 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Connecting to user stream with listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 15:52:43,169 - 17 - hummingbot.connector.exchange.binance.binance_api_order_book_data_source.BinanceAPIOrderBookDataSource - INFO - Subscribed to public order book and trade channels...
+2025-09-05 15:52:43,227 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully connected to user stream
+2025-09-05 15:52:52,479 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:53:22,493 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:53:32,494 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:54:02,510 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:54:12,511 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:54:42,528 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:54:52,530 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:55:22,543 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:55:32,544 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:56:02,561 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:56:12,562 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:56:42,578 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:56:52,579 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:57:22,595 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:57:32,596 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:58:02,612 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:58:12,613 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:58:42,629 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:58:52,630 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 15:59:22,647 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 15:59:32,649 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:00:02,663 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:00:12,664 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:00:42,679 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:00:52,681 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:01:22,697 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:01:32,699 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:02:02,716 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:02:12,717 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:02:42,731 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:02:52,732 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:03:22,746 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:03:32,747 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:04:02,763 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:04:12,764 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:04:42,778 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:04:52,780 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:05:22,796 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:05:32,798 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:06:02,814 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:06:12,816 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:06:42,833 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:06:52,835 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:07:22,852 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:07:32,853 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:08:02,870 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:08:12,872 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:08:42,888 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:08:52,890 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:09:22,907 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:09:32,909 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:10:02,925 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:10:12,927 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:10:42,943 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:10:52,945 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:11:22,961 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:11:32,962 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:12:02,978 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:12:12,979 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:12:42,994 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:12:52,996 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:13:23,012 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:13:33,013 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:14:03,029 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:14:13,031 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:14:43,047 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:14:53,049 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:15:23,066 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:15:33,069 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:16:03,087 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:16:13,090 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:16:43,107 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:16:53,108 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:17:23,125 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:17:33,126 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:18:03,142 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:18:13,143 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:18:43,156 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:18:53,158 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:19:23,176 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:19:33,178 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:20:03,195 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:20:13,197 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:20:43,215 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:20:53,217 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:21:23,234 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:21:33,236 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:22:03,253 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:22:13,255 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:22:43,273 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:22:43,427 - 17 - hummingbot.connector.exchange.binance.binance_api_user_stream_data_source.BinanceAPIUserStreamDataSource - INFO - Successfully refreshed listen key LzsWXRYZhL3sd7axacR1jCbD6ysOGLjt5KOygIx3r4BPCXdTK3Uz0hw53o3v
+2025-09-05 16:22:53,275 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:23:23,288 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:23:33,289 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:24:03,306 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:24:13,308 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:24:43,326 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:24:53,327 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:25:23,344 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:25:33,345 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:26:03,362 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:26:13,363 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:26:43,378 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:26:53,379 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:27:23,396 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:27:33,398 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:28:03,414 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:28:13,415 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:28:43,435 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:28:53,436 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:29:23,452 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:29:33,453 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:30:03,470 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:30:13,471 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:30:43,488 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:30:53,490 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:31:23,507 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:31:33,508 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:32:03,523 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:32:13,525 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:32:43,542 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:32:53,543 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:33:23,556 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:33:33,558 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:34:03,573 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:34:13,574 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:34:43,591 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:34:53,592 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:35:23,608 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:35:33,608 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:36:03,625 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:36:13,627 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:36:43,640 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:36:53,642 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:37:23,660 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:37:33,662 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:38:03,674 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:38:13,676 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:38:43,692 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:38:53,693 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.
+2025-09-05 16:39:23,709 - 17 - hummingbot.client.hummingbot_application - ERROR - MQTT Gateway failed to reconnect: . Sleeping 10 seconds before retry.
+2025-09-05 16:39:33,710 - 17 - hummingbot.client.hummingbot_application - WARNING - MQTT Gateway is disconnected, attempting to reconnect.

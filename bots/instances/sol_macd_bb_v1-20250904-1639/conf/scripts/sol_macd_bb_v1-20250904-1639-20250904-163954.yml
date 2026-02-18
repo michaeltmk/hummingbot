@@ -1,0 +1,7 @@
+candles_config: []
+controllers_config:
+- SOL_MACD_BB_0.1.yml
+markets: {}
+max_controller_drawdown_quote: 10.0
+max_global_drawdown_quote: 10.0
+script_file_name: v2_with_controllers.py
