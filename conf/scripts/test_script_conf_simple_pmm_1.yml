@@ -1,0 +1,8 @@
+script_file_name: simple_pmm.py
+exchange: binance_paper_trade
+trading_pair: ETH-USDT
+order_amount: 0.01
+bid_spread: 0.001
+ask_spread: 0.001
+order_refresh_time: 15
+price_type: mid

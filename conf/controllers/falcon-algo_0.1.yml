@@ -1,0 +1,33 @@
+buy_amounts_pct:
+- 0.2
+- 0.8
+buy_spreads:
+- 0.01
+- 0.02
+candles_config: []
+connector_name: binance_paper_trade
+controller_name: pmm_simple
+controller_type: market_making
+cooldown_time: 3600.0
+executor_refresh_time: 3600.0
+id: falcon-algo_0.1
+leverage: 1
+manual_kill_switch: false
+position_mode: HEDGE
+position_rebalance_threshold_pct: 0.05
+sell_amounts_pct:
+- 0.2
+- 0.8
+sell_spreads:
+- 0.01
+- 0.02
+skip_rebalance: false
+stop_loss: 0.05
+take_profit: 0.02
+take_profit_order_type: 2
+time_limit: 43200
+total_amount_quote: 1000
+trading_pair: SOL-USDT
+trailing_stop:
+  activation_price: 0.018
+  trailing_delta: 0.002

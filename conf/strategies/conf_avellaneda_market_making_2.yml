@@ -1,0 +1,67 @@
+###########################################
+###   avellaneda_market_making config   ###
+###########################################
+
+strategy: avellaneda_market_making
+
+# The name of the exchange connector.
+exchange: binance_paper_trade
+
+# The trading pair.
+market: SOL-USDT
+
+# The execution timeframe.
+execution_timeframe_mode: infinite
+
+# The strategy order amount.
+order_amount: 5.0
+
+# Allows the bid and ask order prices to be adjusted based on the current top bid and ask prices in the market.
+order_optimization_enabled: true
+
+# The risk factor (γ). Higher = wider quotes, more edge, fewer fills.
+risk_factor: 0.8
+
+# The amount shape factor (η). Tapers size across levels.
+order_amount_shape_factor: 0.2
+
+# The minimum spread limit as percentage of the mid price (protects edge vs. fees/slippage).
+min_spread: 0.12
+
+# The frequency at which the orders' spreads will be re-evaluated.
+order_refresh_time: 30.0
+
+# A given order's maximum lifetime irrespective of spread.
+max_order_age: 1800.0
+
+# The range of spreads tolerated on refresh cycles. Orders over that range are cancelled and re-submitted.
+order_refresh_tolerance_pct: 0.30
+
+# The delay before placing a new order after an order fill.
+filled_order_delay: 60.0
+
+# Defines the inventory target for the base asset.
+inventory_target_base_pct: 50.0
+
+# If activated, transaction costs will be added to order prices.
+add_transaction_costs: true
+
+# The number of ticks that will be stored to calculate volatility.
+volatility_buffer_size: 200
+
+# The number of ticks that will be stored to calculate order book liquidity.
+trading_intensity_buffer_size: 200
+
+# Allows activating multi-order levels (edge-stable: fewer levels, wider spacing).
+order_levels_mode:
+  order_levels: "2"
+  level_distances: "0.50"
+
+# Allows custom specification of the order levels and their spreads and amounts.
+order_override: null
+
+# When tracking hanging orders, the orders on the side opposite to the filled orders remain active.
+hanging_orders_mode: {}
+
+# If activated, the strategy will await cancellation confirmation from the exchange before placing a new order.
+should_wait_order_cancel_confirmation: true

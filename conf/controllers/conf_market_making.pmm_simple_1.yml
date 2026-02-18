@@ -1,0 +1,32 @@
+id: FoWckq1F9hU63uFy18XHm9zPw38UnFdjdmSAaezxNhcJ
+controller_name: pmm_simple
+controller_type: market_making
+total_amount_quote: '100'
+manual_kill_switch: false
+candles_config: []
+initial_positions: []
+connector_name: binance_paper_trade
+trading_pair: SOL-USDT
+buy_spreads:
+- 0.01
+- 0.02
+sell_spreads:
+- 0.01
+- 0.02
+buy_amounts_pct:
+- '1'
+- '1'
+sell_amounts_pct:
+- '1'
+- '1'
+executor_refresh_time: 300
+cooldown_time: 15
+leverage: 20
+position_mode: HEDGE
+stop_loss: '0.03'
+take_profit: '0.02'
+time_limit: 2700
+take_profit_order_type: 2
+trailing_stop: null
+position_rebalance_threshold_pct: '0.05'
+skip_rebalance: false
